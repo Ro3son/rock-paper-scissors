@@ -58,7 +58,7 @@ heading.textContent = "Rock Paper Scissors";
 content.appendChild(heading);
 
 var h1Style = document.querySelector("h1").style;
-h1Style.color = "lightgreen";
+h1Style.color = "black";
 h1Style.fontFamily = "monospace";
 h1Style.fontSize = "7em";
 h1Style.textAlign = "center";
