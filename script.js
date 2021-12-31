@@ -14,7 +14,7 @@ function playRound(playerSelection) {
     (playerSelection == "scissor" && computerSelection == "rock")
   ) {
     resultado =
-      "Jogador 1: " +
+      "Player 1: " +
       playerSelection +
       "<br><br>Computer: " +
       computerSelection +
@@ -24,7 +24,7 @@ function playRound(playerSelection) {
     (playerSelection == "rock" && computerSelection == "paper")
   ) {
     resultado =
-      "Jogador 1: " +
+      "Player 1: " +
       playerSelection +
       "<br><br>Computer: " +
       computerSelection +
@@ -34,7 +34,7 @@ function playRound(playerSelection) {
     (playerSelection == "scissor" && computerSelection == "paper")
   ) {
     resultado =
-      "Jogador 1: " +
+      "Player 1: " +
       playerSelection +
       "<br><br>Computer: " +
       computerSelection +
