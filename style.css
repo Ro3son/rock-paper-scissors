@@ -1,34 +1,44 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    background-color: whitesmoke;
-  }
-  .content {
-    display: flex;
-    justify-content: center;
-  }
-  .btn {
-    align-items: center;
-    text-align: center;
-  }
-  button {
-    display: inline-flex;
-    justify-content: center;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 1.5em;
-    margin: 1em 0 1em 0;
-    padding: 1em 1em 1em 1em;
-    border: 1px solid #000;
-  }
-  button:hover {
-    background-color: tomato;
-  }
-  #demo {
-    text-align: center;
-    font-family: "Courier New", Courier, monospace;
-    margin: 1em 0 1em 0;
-    font-size: 2.5em;
-    color: lightcoral;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-weight: normal;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, wheat, lightpink);
+}
+.btn {
+  align-items: center;
+  text-align: center;
+}
+button {
+  display: inline-flex;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.5em;
+  margin: 1em 0 1em 0;
+  padding: 1em 1em 1em 1em;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+button:hover {
+  color: white;
+  background-color: tomato;
+}
+#demo {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin: 1em 0 1em 0;
+  font-size: 2.5em;
+  color: tomato;
+}
+.fas fa-hand-rock > .span {
+  border-bottom: 1px dotted black;
+  visibility: visible;
+  opacity: 1;
+}
